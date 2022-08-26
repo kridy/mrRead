@@ -1,0 +1,22 @@
+{
+    "name": "mrRead",
+    "version": "0.1",
+    "description": "Read everything in browser",
+    "manifest_version": 3, 
+    "action": {
+      "default_title": "Take a Screenshot"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+      "desktopCapture",
+      "tabs"
+    ],
+    "icons": {
+      "16": "assets/images/reading16.png",
+      "32": "assets/images/reading32.png",
+      "48": "assets/images/reading64.png",
+      "128": "assets/images/reading128.png"
+    }
+  }
